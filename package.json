@@ -1,0 +1,19 @@
+{
+  "name": "cucumber-cypress-exemplo",
+  "version": "1.0.0",
+  "description": "Exemplo de modelo com cypress e cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^23.2.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.6",
+    "cypress": "^14.5.4",
+    "esbuild": "^0.25.10"
+  }
+}
